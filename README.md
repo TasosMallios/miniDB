@@ -9,7 +9,7 @@ The miniDB project is a minimal and easy to expand and develop for RMDBS tool, w
 ## What I worked on:
 - IN, BETWEEN, LIKE operators: Added support for IN, BETWEEN, LIKE operators in WHERE queries for all conditions (SELECT, DELETE, UPDATE, INNER JOIN) issue #77.
 - INSERT INTO table SELECT ... : Added support for massive insertion of rows (results of a SELECT query) in a table. My approach also supports IN, BETWEEN, LIKE operators. Issue #78.
-- GROUP BY column [HAVING... ] clause: Added support for the GROUP BY clause and the following aggregate functions: min, max, avg, count sum. Issue #85.
+- GROUP BY column [HAVING... ] clause: Added support for the GROUP BY clause and the following aggregate functions: min, max, avg, count, sum. Issue #85.
 
 For more information and examples, open my [Documentation File](miniDB.pdf) 
 
