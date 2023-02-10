@@ -6,6 +6,13 @@
 
 The miniDB project is a minimal and easy to expand and develop for RMDBS tool, written exclusivelly in Python 3. MiniDB's main goal is to provide the user with as much functionality as possible while being easy to understand and even easier to expand. Thus, miniDB's primary market are students and researchers that want to work with a tool that they can understand through and through, while being able to implement additional features as quickly as possible.
 
+## What I worked on:
+- IN, BETWEEN, LIKE operators: Added support for IN, BETWEEN, LIKE operators in WHERE queries for all conditions (SELECT, DELETE, UPDATE, INNER JOIN) issue #77.
+- INSERT INTO table SELECT ... : Added support for massive insertion of rows (results of a SELECT query) in a table. My approach also supports IN, BETWEEN, LIKE operators. Issue #78.
+- GROUP BY column [HAVING... ] clause: Added support for the GROUP BY clause and the following aggregate functions: min, max, avg, count sum. Issue #85.
+
+For more information and examples, open my [Documentation File](miniDB.pdf) 
+
 ## Installation
 
 Python 3.9 or newer is needed. To download the project locally, run:
